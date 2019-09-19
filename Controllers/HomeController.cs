@@ -26,5 +26,13 @@ namespace Homework.Controllers
 
             return View();
         }
+        public ActionResult Pet_types()
+        {
+            return View();
+        }
+        public ActionResult Accessories()
+        {
+            return View();
+        }
     }
 }
