@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCDatabaseModelStoreContainer" CdmEntityContainer="MVCDatabaseEntities">
+    <EntitySetMapping Name="Foods">
+      <EntityTypeMapping TypeName="MVCDatabaseModel.Food">
+        <MappingFragment StoreEntitySet="Food">
+          <ScalarProperty Name="Food1" ColumnName="Food" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Delivery_price" ColumnName="Delivery_price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
